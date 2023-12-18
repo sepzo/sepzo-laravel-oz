@@ -1,0 +1,62 @@
+body {
+    background-color: #eee;
+}
+.profile-card {
+    background-color: #fff;
+    padding: 30px;
+    background-color: aliceblue;
+}
+.profile-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profile-info {
+    margin-bottom: 20px;
+}
+.profile-info strong {
+    font-weight: bold;
+}
+.profile-action {
+    text-align: center;
+}
+
+.profile-card {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom: none;
+}
+.profile-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-table {
+    margin-top: 50px;
+}
+/* Dark-themed table */
+.table-dark tbody tr:nth-of-type(odd) {
+    background-color: #343a40;
+}
+/* Style for even rows */
+.table-dark tbody tr:nth-of-type(even) {
+    background-color: #3d444b;
+}
+/* Change text color for even rows for better readability */
+.table-dark tbody tr:nth-of-type(even) td {
+    color: #fff;
+}
+
+.user-table {
+    margin-top: 5px;
+}
+.user-details {
+    display: none;
+}
+.full-width-card {
+    width: 100%; /* Set the width to 100% */
+}
